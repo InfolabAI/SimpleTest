@@ -41,6 +41,7 @@ class TestAddFunction(unittest.TestCase):
         def execute():
             HandleTransformer().get_positional_encoding('bert-base-uncased', 10)
 
+        breakpoint()
         # debug
         execute()
 
